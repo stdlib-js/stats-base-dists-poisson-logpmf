@@ -65,13 +65,13 @@ where `lambda > 0` is the mean parameter.
 ## Usage
 
 ```javascript
-import logpmf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-logpmf@esm/index.mjs';
+import logpmf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-logpmf@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-logpmf@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-logpmf@v0.1.0-esm/index.mjs';
 ```
 
 #### logpmf( x, lambda )
@@ -150,7 +150,7 @@ y = mylogpmf( 1.0 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import logpmf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-logpmf@esm/index.mjs';
+import logpmf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-poisson-logpmf@v0.1.0-esm/index.mjs';
 
 var lambda;
 var x;
